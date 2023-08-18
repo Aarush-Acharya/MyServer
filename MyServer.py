@@ -11,7 +11,7 @@ CORS(app, origins=["*"])
 
 @app.route('/')
 def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+    return jsonify({"Choo Choo": "Welcome to your Flask app lesgoo!!"})
 
 @app.route('/webhook', methods=['POST'])
 def onhook():
